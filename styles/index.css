@@ -65,13 +65,14 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 h1{
     color: #666;
     margin: 20px 10px 0px;
-    padding: 0px 30px 0px 30px;
-  }
- 
-  .center {
+    padding: 0px 30px 0px
+}
+
+.center {
     text-align: center;
   }
-
+ 
+ 
   #section3{
     display: flex;
     flex-wrap: wrap;
@@ -84,4 +85,12 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.section-form {
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+
 }
